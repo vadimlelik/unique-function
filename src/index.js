@@ -17,6 +17,6 @@ export const declension = (form, value) => {
 
 console.log(declension(["день", "дня", "дней"], 11));
 
-// declension([ 'час', 'часа', 'часов' ], hours),
+declension(['час', 'часа', 'часов'], 15)
 // declension([ 'минута', 'минуты', 'минут' ], minutes),
 // declension([ 'секунда', 'секунды', 'секунд' ], seconds);
